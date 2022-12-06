@@ -1,0 +1,19 @@
+menu,
+    1. search-bar
+    2. cart
+    3. button
+    4. logo
+    5. menu-button
+header,
+    1. side-nav
+    2. carousel
+body,
+    1. heading-with-logo
+    2. button
+    3. carousel
+    4. product card
+footer,
+    1. download section
+    2. others info
+    3. contact
+    4. social media
