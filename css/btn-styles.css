@@ -7,11 +7,16 @@
 
 .btn-white {
     background: #ffffff00;
-    color: #ffffff;
+    color: var(--color5);
 
-    transition: 0.75s;
+    transition: 1.25s;
 }
 .btn-white:hover {
     background: #ffffff;
-    color: rgb(47, 155, 180);
+    color: var(--color1);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 720px) {
+
 }
