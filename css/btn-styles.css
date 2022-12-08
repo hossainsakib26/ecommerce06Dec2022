@@ -1,0 +1,17 @@
+.btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.5rem;
+    border: 1px solid #fff;
+    border-radius: 0.5rem;
+}
+
+.btn-white {
+    background: #ffffff00;
+    color: #ffffff;
+
+    transition: 0.75s;
+}
+.btn-white:hover {
+    background: #ffffff;
+    color: rgb(47, 155, 180);
+}

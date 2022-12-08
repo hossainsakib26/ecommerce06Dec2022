@@ -1,0 +1,46 @@
+/*@import*/
+@import "base-css.css";
+@import url(btn-styles.css);
+@import url(imput-styles.css);
+/*@import end*/
+
+/*common components*/
+/*------*/
+
+#menu {
+    background: var(--color1);
+    /*background: #9a8c98;*/
+    width: 100%;
+    height: 7rem;
+    padding: 0 2rem;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.menu-button {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 1rem;
+}
+
+.menu-button > .bi {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--color5);
+}
+
+.menu-container {
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10rem;
+}
+
+.menu-container > .logo {
+    height: 6rem;
+}
