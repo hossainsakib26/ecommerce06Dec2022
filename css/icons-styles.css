@@ -1,0 +1,9 @@
+.bi {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color5);
+}
+
+/*.bi:hover{*/
+/*    color: var(--color1);*/
+/*}*/

@@ -15,4 +15,8 @@
     --color4: #c9ada7;
     --color5: #f2e9e4;
 }
+
+a {
+    text-decoration: none;
+}
 /*base css end*/

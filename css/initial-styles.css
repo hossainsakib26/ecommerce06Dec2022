@@ -1,7 +1,8 @@
 /*@import*/
-@import "base-css.css";
+@import url("base-css.css");
 @import url(btn-styles.css);
 @import url(imput-styles.css);
+@import url(icons-styles.css);
 /*@import end*/
 
 /*common components*/
@@ -9,32 +10,29 @@
 
 #menu {
     background: var(--color1);
-    /*background: #9a8c98;*/
-    width: 100%;
-    height: 7rem;
-    padding: 0 2rem;
+
+    width: 100vw;
+    height: 6rem;
+    padding: 0.5rem 2rem;
 
     display: flex;
     justify-content: start;
     align-items: center;
 }
 
-.menu-button {
+.menu-btn{
     width: 10%;
+    margin: 0 auto;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0 1rem;
-}
-
-.bi {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: var(--color5);
 }
 
 .menu-container {
     width: 80%;
+    margin: 0 auto;
+
     display: flex;
     justify-content: start;
     align-items: center;
@@ -42,32 +40,36 @@
 }
 
 .menu-container > .logo {
-    height: 6rem;
+    height: 5rem;
+    margin: 0 auto;
+}
+
+.menu-container > .search-col {
+    width: 60%;
 }
 
 .menu-container > .button-col{
-    display: flex;
-    gap: 0 1rem;
-    justify-content: space-between;
-    align-items: center;
-
-    /*margin: 0 2rem;*/
+    width: 20%;
 }
+
+.menu-container > .button-col{
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 1rem;
+}
+
 .cart-link {
     margin: 0 2rem;
-}
-
-.cart-link span{
     font-size: 1.5rem;
     color: var(--color5);
 }
 
 @media screen and (max-width: 720px) {
 
-    /*.menu-container {*/
-    /*    display: none;*/
-    /*}*/
-    .display-none-in-less720 {
+    .display-xl-none {
         display: none;
     }
 

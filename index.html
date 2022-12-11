@@ -22,24 +22,33 @@
 
     <section id="menu">
 
-        <div class="menu-button">
-            <i class="bi bi-list"></i>
+        <div class="menu-btn">
+            <button class="btn-icon btn-icon-menu">
+                <i class="bi bi-list"></i>
+            </button>
         </div>
-        <div class="menu-container display-none-in-less720">
+
+        <div class="menu-container display-xl-none">
             <img class="logo" src="assets/logo2.png" alt="site-logo">
             <div class="search-col item-2">
                 <form class="search-form">
                     <input name="search" type="text" class="search-box" placeholder="Search your product here">
-                    <button class="btn btn-search" type="submit">
+                    <button class="btn-icon btn-icon-search" type="submit">
                         <i class="bi bi-search"></i>
                     </button>
                 </form>
             </div>
             <div class="button-col item-3">
-                <button class="btn btn-white">Sign In</button>
+
+                <button class="btn btn-white">
+                    <i class="bi bi-box-arrow-in-right"></i>
+<!--                    <span class="btn-text">Sign In</span>-->
+                    Sign In
+                </button>
                 <a class="cart-link" href="#">
                     <i class="bi bi-cart4"></i>
-                    <span>Cart</span>
+                    Cart
+<!--                    <span class="btn-text">Cart</span>-->
                 </a>
             </div>
         </div>
