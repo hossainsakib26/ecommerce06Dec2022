@@ -67,7 +67,7 @@
     color: var(--color5);
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1366px) {
 
     .display-xl-none {
         display: none;

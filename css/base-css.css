@@ -19,4 +19,20 @@
 a {
     text-decoration: none;
 }
+
+.center-x {
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.center-flex-x {
+    justify-content: center;
+}
+
+.center-flex-y {
+    align-items: center;
+}
 /*base css end*/
