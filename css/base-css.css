@@ -1,12 +1,4 @@
 /*base css*/
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-
-    font-family: 'Roboto', sans-serif;
-    font-size: 10px;
-}
 
 :root {
     --color1: #22223b;
@@ -16,6 +8,28 @@
     --color5: #f2e9e4;
 }
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+/*hiding scrollbar for firefox*/
+html{
+    scrollbar-width: none;
+}
+
+body {
+    -ms-overflow-style: none;
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+/*end*/
 a {
     text-decoration: none;
 }

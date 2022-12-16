@@ -1,0 +1,37 @@
+#header-cover {
+    display: flex;
+}
+
+
+#cover-menu {
+    width: 30%;
+    background: #c9ada750;
+    padding: 2rem 3rem 2rem 5rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem 0;
+
+}
+
+.menu-prop {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu-prop > i{
+    color: var(--color1);
+}
+.menu-prop > a{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#carousel{
+    width: 70%;
+    background: #4a4e6950;
+}
