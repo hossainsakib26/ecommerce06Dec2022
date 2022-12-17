@@ -1,15 +1,35 @@
 #header-cover {
     display: flex;
+    flex-wrap: wrap;
     height: auto;
+    position: relative;
 }
 
-#carousel{
-    width: 70%;
-    padding: 0;
+#header-carousel{
+    width: 75%;
+}
+
+#vendors-place{
+    width: 100%;
+    background: #4a4e69;
+    padding: 1rem 0;
+
+    position: absolute;
+    top: 42rem;
+
+    box-shadow: 0 0 2.5rem -1rem var(--color3);
+}
+
+.vendor-div {
+    width: 70vw;
+    margin: 0 auto;
+    background: #c9ada7;
+    padding: 4rem;
+    
 }
 
 #cover-menu {
-    width: 30%;
+    width: 25%;
     background: #c9ada750;
     padding: 3rem 3rem 3rem 5rem;
 
