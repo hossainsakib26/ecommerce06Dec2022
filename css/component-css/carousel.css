@@ -1,0 +1,31 @@
+#carousel{
+    position: relative;
+
+}
+
+.previous-direction, .next-direction{
+    position: absolute;
+    top: 40%;
+    background: var(--color5);
+}
+.previous-direction{
+    right: 0.5rem;
+}
+.next-direction {
+    left: 0.5rem;
+}
+.carousel-image-container {
+    width: 100%;
+    /*height: auto;*/
+    background-color: #00ff00;
+}
+
+.carousel-image-container > img {
+    width: 100%;
+    margin: auto;
+}
+
+.previous-direction > i, .next-direction > i {
+    font-size: 3.5rem;
+    color: var(--color2);
+}

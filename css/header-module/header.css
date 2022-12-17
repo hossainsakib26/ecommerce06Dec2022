@@ -1,12 +1,17 @@
 #header-cover {
     display: flex;
+    height: auto;
 }
 
+#carousel{
+    width: 70%;
+    padding: 0;
+}
 
 #cover-menu {
     width: 30%;
     background: #c9ada750;
-    padding: 2rem 3rem 2rem 5rem;
+    padding: 3rem 3rem 3rem 5rem;
 
     display: flex;
     flex-direction: column;
@@ -20,18 +25,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .menu-prop > i{
-    color: var(--color1);
+    color: var(--color2);
 }
 .menu-prop > a{
     font-size: 1.5rem;
     font-weight: 500;
+    color: var(--color2);
+    transition: 0.5s;
 }
-
-#carousel{
-    width: 70%;
-    background: #4a4e6950;
+.menu-prop > a:hover{
+    color: var(--color1);
 }
