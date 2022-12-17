@@ -23,9 +23,28 @@
 .vendor-div {
     width: 70vw;
     margin: 0 auto;
-    background: #c9ada7;
-    padding: 4rem;
-    
+    /*background: #c9ada7;*/
+    padding: 1rem 4rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.single-vendor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem 0;
+
+    height: 13rem;
+}
+
+.single-vendor > p {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--color5);
 }
 
 #cover-menu {
