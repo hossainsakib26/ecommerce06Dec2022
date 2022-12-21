@@ -36,29 +36,52 @@
 
 #offer-products {
     width: 100%;
-    background: var(--color3);
+    background: var(--color5);
     margin-top: 14rem;
-    padding: 2rem 0;
+    padding: 3rem 0;
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#offer-products > .display-section {
+#product-store {
+    padding: 4rem;
+    background: #9a8c98;
+}
+.display-section{
     width: 75vw;
     margin: 0 auto;
+    display: flex;
+}
+
+#product-store > .display-section {
+    flex-direction: column;
+    gap: 1rem 0;
+}
+
+
+#offer-products > .display-section {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.display-section > .section-header {
+    width: 100%;
+    border-bottom: var(--color5) solid 0.3rem;
+    padding-bottom: 1rem;
 
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .link-card {
     width: 30%;
     height: 38.7rem;
-    background: #22223b50;
-    border-radius: 2.5rem 0.5rem 2.5rem 0.5rem;
+    background: var(--color2);
+    border-radius: 1.5rem 0.5rem 1.5rem 0.5rem;
+    box-shadow: #9a8c98 0rem 0.5rem 2rem 1rem;
+    overflow: hidden;
 }
 
 .menu-btn{

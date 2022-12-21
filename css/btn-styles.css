@@ -20,13 +20,20 @@
     margin: 0.5rem;
 }
 
-.bi, .btn-white, .btn-menu {
+.bi, .btn-white, .btn-menu, .btn-seeAll {
     background: #ffffff00;
     color: var(--color5);
     transition: 0.5s;
 }
+.btn-seeAll {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 1rem;
+    width: 10rem;
+    text-align: center;
+}
 
-.btn-white:hover , .btn-menu:hover {
+.btn-white:hover , .btn-menu:hover, .btn-seeAll:hover {
     background: #ffffff;
     color: var(--color1);
     cursor: pointer;
